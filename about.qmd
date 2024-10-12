@@ -13,4 +13,6 @@ about:
 
 ---
 
-About this blog
+Hi, I am Zeniro!
+
+I am ML engineer. In this blog I want to share tutorials, notes, and projects on backend development and ML.
