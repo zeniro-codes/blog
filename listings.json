@@ -1,6 +1,8 @@
 [
   {
     "listing": "/index.html",
-    "items": []
+    "items": [
+      "/posts/01_fastapi_htmx/index.html"
+    ]
   }
 ]
