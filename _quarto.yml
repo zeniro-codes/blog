@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  title: "Zeniro's Blog"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/zeniro-codes
+      - icon: twitter
+        href: https://x.com/zeniro_codes
+format:
+  html:
+    theme: lux
+    css: styles.css
+
+
+
