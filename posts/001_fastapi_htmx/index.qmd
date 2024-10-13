@@ -140,7 +140,7 @@ fastapi run main.py
 
 And if you open `http://0.0.0.0:8000/`, you can see the following result:
 
-![](./01_fastapi_htmx_result.gif)
+![](./001_fastapi_htmx_result.gif)
 
 # Materials
 
