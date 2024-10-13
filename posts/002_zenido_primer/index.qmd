@@ -1,0 +1,28 @@
+---
+title: "ZeniDo: Primer"
+author: "Zeniro"
+date: "2024-10-13"
+categories: [software-engineering, todo-apps, ]
+---
+
+You've probably heard that ToDo apps are like the "Hello World" of web development. It seems like everyone has built one as part of their coding portfolio. But I haven't!
+
+As a data scientist and machine learning engineer, I've spent years crunching numbers and training AI models. Building a ToDo app? That's a new world for me. So, I decided it's time to step out of my comfort zone and join the ToDo app club. Better late than never, right?
+
+To make things interesting, instead of showing a perfect, finished app, I want to take you along for the ride. You'll see how I figure things out, make mistakes, and learn as I go.
+
+My game plan:
+
+1. Make a quick app with full functionality to practice and see what works and what doesn't work.
+2. Review the prototype, identify sensible abstractions and architectural decisions, and build [sequence diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-sequence-diagrams/) and some diagrams from [C4](https://c4model.info/) to inform the development.
+3. Build it for real with scalability in mind.
+
+Tech tools I plan to use for the prototype:
+
+- FastAPI
+- HTMX
+- Postgres, Redis, and MongoDB
+- Nginx
+- Docker
+
+I'm super excited to start this project and share everything I learn with you. Along the way, I'll include optional materials, additional tasks, and questions for those who want to follow along and learn alongside me.
