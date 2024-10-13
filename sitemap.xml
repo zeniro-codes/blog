@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://zeniro-codes.github.io/blog/posts/welcome/index.html</loc>
-    <lastmod>2024-10-12T21:50:29.691Z</lastmod>
+    <lastmod>2024-10-13T13:25:02.677Z</lastmod>
   </url>
   <url>
     <loc>https://zeniro-codes.github.io/blog/index.html</loc>
-    <lastmod>2024-10-12T21:50:29.691Z</lastmod>
+    <lastmod>2024-10-13T13:25:02.677Z</lastmod>
   </url>
   <url>
     <loc>https://zeniro-codes.github.io/blog/about.html</loc>
-    <lastmod>2024-10-12T21:50:29.691Z</lastmod>
+    <lastmod>2024-10-13T13:25:02.677Z</lastmod>
   </url>
   <url>
-    <loc>https://zeniro-codes.github.io/blog/posts/01_fastapi_htmx/index.html</loc>
-    <lastmod>2024-10-12T21:50:29.691Z</lastmod>
+    <loc>https://zeniro-codes.github.io/blog/posts/001_fastapi_htmx/index.html</loc>
+    <lastmod>2024-10-13T13:25:02.677Z</lastmod>
   </url>
 </urlset>
