@@ -3,6 +3,9 @@ title: "Using HTMX with FastAPI"
 author: "Zeniro"
 date: "2024-10-12"
 categories: [fastapi, htmx, short-tutorials]
+comments:
+  utterances:
+    repo: zeniro-codes/blog
 ---
 
 I am planning to do a big project with FastAPI and HTMX soon. To prepare for this project I decided to create a short example on how to use HTMX with FastAPI.

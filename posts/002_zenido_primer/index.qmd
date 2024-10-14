@@ -3,6 +3,9 @@ title: "ZeniDo: Primer"
 author: "Zeniro"
 date: "2024-10-13"
 categories: [software-engineering, todo-apps, ]
+comments:
+  utterances:
+    repo: zeniro-codes/blog
 ---
 
 You've probably heard that ToDo apps are like the "Hello World" of web development. It seems like everyone has built one as part of their coding portfolio. But I haven't!
