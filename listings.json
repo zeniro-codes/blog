@@ -3,6 +3,7 @@
     "listing": "/index.html",
     "items": [
       "/posts/002_zenido_primer/index.html",
+      "/posts/003_learning_resources/index.html",
       "/posts/001_fastapi_htmx/index.html"
     ]
   }

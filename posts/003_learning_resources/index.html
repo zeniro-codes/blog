@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Zeniro">
+<meta name="dcterms.date" content="2024-10-13">
 
-<title>Posts – Zeniro’s Blog</title>
+<title>GOATed resources for ML engineers: 1 – Zeniro’s Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,77 +68,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Zeniro’s Blog</span>
     </a>
   </div>
@@ -149,7 +91,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -172,161 +114,60 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Posts</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">GOATed resources for ML engineers: 1</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">software-engineering</div>
+                <div class="quarto-category">learning-resources</div>
+                <div class="quarto-category">data-science</div>
+                <div class="quarto-category">ML</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Zeniro </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 13, 2024</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="ML">ML <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data-science">data-science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="fastapi">fastapi <span class="quarto-category-count">(1)</span></div><div class="category" data-category="htmx">htmx <span class="quarto-category-count">(1)</span></div><div class="category" data-category="learning-resources">learning-resources <span class="quarto-category-count">(1)</span></div><div class="category" data-category="short-tutorials">short-tutorials <span class="quarto-category-count">(1)</span></div><div class="category" data-category="software-engineering">software-engineering <span class="quarto-category-count">(2)</span></div><div class="category" data-category="todo-apps">todo-apps <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<p>This is the first blog post in a series on the learning resources that helped me become an ML engineer without a CS background. Here and in the next posts, I will include only the materials I worked with and that helped me in my daily job as an ML engineer. No affiliate links, just the stuff that helped me the most in my ML engineering career.</p>
+<ol type="1">
+<li><a href="https://www.udemy.com/course/python-3-deep-dive-part-1">Deep Dive into Python</a> from Dr.&nbsp;Fred Baptiste. This series of courses takes roughly 100 hours to complete, but every second worths it. Your code quality will increase significantly, you will understand and appreciate Python on a whole different level. Some topics that were super helpful to me: memory, reference counting, and garbage collection in Python, Python data structures, and metaprogramming in Python. Dr.&nbsp;Fred also has an amazing <a href="https://www.youtube.com/@mathbyteacademy">YouTube channel</a> on idiomatic Python, cool Python libraries, etc. If you finish these courses, there will not be a Python topic that you will not understand how to work with.</li>
+<li><a href="https://www.udemy.com/course/setting-up-the-linux-terminal-for-software-development">Taking Python to Production: A Professional Onboarding Guide</a> from Eric Riddoch. Eric created the best course on how to set up a development environment for your work with Python. You’ll learn how to make your terminal more intuitive with ZSH and plugins, version and package Python software, and set up automated code quality checks. But the best part of this course is that you will understand what is possible in setting up a development environment, and you can modify it easily. I use the knowledge from the course pretty much on a daily basis.</li>
+<li><a href="https://www.udemy.com/course/fundamentals-of-networking-for-effective-backend-design">Fundamentals of Network Engineering</a> and <a href="https://www.udemy.com/course/fundamentals-of-operating-systems">Fundamentals of Operating Systems</a> from Hussein Nasser. You’ll gain an understanding of network protocols like TCP/IP, learn about the OSI model, and explore how operating systems manage processes and resources. The courses also cover practical skills like using Wireshark for traffic inspection and optimizing applications based on OS principles. This was an “unknown unknown” - something I didn’t even know that I didn’t know. Information from these courses helps me to build more scalable ML processes, and I come back to them quite often. Additionally, it might also help you better understand what ThePrimeagen talks about in his streams, so it’s worth it just because of this fact.</li>
+<li><a href="https://www.udemy.com/course/sustainable-and-scalable-machine-learning-project-development/">End-to-End Machine Learning: From Idea to Implementation</a> from Kıvanç Yüksel. This course covers the entire ML project lifecycle in a very thorough project. You’ll learn about data versioning, distributed processing and model training, and the principles of MLOps. The course also covers experiment tracking, error analysis, and creating applications using trained models. It is one of the best demonstrations of the machine learning engineer job in comparison to the data scientist job to date. Highly recommend.</li>
+</ol>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="software-engineering,todo-apps" data-listing-date-sort="1728777600000" data-listing-file-modified-sort="1729111741729" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="212">
-<div class="thumbnail">
-<p><a href="./posts/002_zenido_primer/index.html" class="no-external"></a></p><a href="./posts/002_zenido_primer/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/002_zenido_primer/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/002_zenido_primer/index.html" class="no-external">ZeniDo: Primer</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/002_zenido_primer/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('software-engineering'); return false;">
-software-engineering
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('todo-apps'); return false;">
-todo-apps
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/002_zenido_primer/index.html" class="no-external">You’ve probably heard that ToDo apps are like the “Hello World” of web development. It seems like everyone has built one as part of their coding portfolio. But I haven’t!</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/002_zenido_primer/index.html" class="no-external">
-<div class="listing-date">
-Oct 13, 2024
-</div>
-<div class="listing-author">
-Zeniro
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="software-engineering,learning-resources,data-science,ML" data-listing-date-sort="1728777600000" data-listing-file-modified-sort="1729111741729" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="449">
-<div class="thumbnail">
-<p><a href="./posts/003_learning_resources/index.html" class="no-external"></a></p><a href="./posts/003_learning_resources/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/003_learning_resources/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/003_learning_resources/index.html" class="no-external">GOATed resources for ML engineers: 1</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/003_learning_resources/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('software-engineering'); return false;">
-software-engineering
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('learning-resources'); return false;">
-learning-resources
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('data-science'); return false;">
-data-science
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
-ML
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/003_learning_resources/index.html" class="no-external">This is the first blog post in a series on the learning resources that helped me become an ML engineer without a CS background. Here and in the next posts, I will include…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/003_learning_resources/index.html" class="no-external">
-<div class="listing-date">
-Oct 13, 2024
-</div>
-<div class="listing-author">
-Zeniro
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="fastapi,htmx,short-tutorials" data-listing-date-sort="1728691200000" data-listing-file-modified-sort="1729111741729" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="872">
-<div class="thumbnail">
-<p><a href="./posts/001_fastapi_htmx/index.html" class="no-external"></a></p><a href="./posts/001_fastapi_htmx/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/001_fastapi_htmx/001_fastapi_htmx_result.gif"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/001_fastapi_htmx/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/001_fastapi_htmx/index.html" class="no-external">Using HTMX with FastAPI</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/001_fastapi_htmx/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('fastapi'); return false;">
-fastapi
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('htmx'); return false;">
-htmx
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('short-tutorials'); return false;">
-short-tutorials
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/001_fastapi_htmx/index.html" class="no-external">I am planning to do a big project with FastAPI and HTMX soon. To prepare for this project I decided to create a short example on how to use HTMX with FastAPI.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/001_fastapi_htmx/index.html" class="no-external">
-<div class="listing-date">
-Oct 12, 2024
-</div>
-<div class="listing-author">
-Zeniro
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -746,6 +587,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
+</script>
+<script src="https://utteranc.es/client.js" repo="zeniro-codes/blog" issue-term="pathname" theme="github-light" crossorigin="anonymous" async="">
 </script>
 </div> <!-- /content -->
 
