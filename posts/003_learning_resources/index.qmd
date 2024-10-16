@@ -1,7 +1,7 @@
 ---
 title: "GOATed resources for ML engineers: 1"
 author: "Zeniro"
-date: "2024-10-13"
+date: "2024-10-16"
 categories: [software-engineering, learning-resources, data-science, ML]
 comments:
   utterances:
